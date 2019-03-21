@@ -1,0 +1,24 @@
+{
+  "name": "yarn-versions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "yarn-versions": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "jest",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "author": "Christopher Smith",
+  "repository": "christophersmith262/yarn-versions",
+  "license": "MIT",
+  "dependencies": {
+    "@yarnpkg/lockfile": "^1.1.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.3",
+    "jest": "^24.5.0"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "success",
+  "object": {
+    "@babel/code-frame@^7.0.0": {
+       "version": "7.0.0",
+       "resolved": "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0.tgz#06e2ab19bdb535385559aabb5ba59729482800f8",
+       "dependencies": {
+         "@babel/highlight": "^7.0.0"
+       }
+     },
+    "@babel/core@^7.1.0": {
+      "version": "7.4.0",
+        "resolved": "https://registry.yarnpkg.com/@babel/core/-/core-7.4.0.tgz#248fd6874b7d755010bfe61f557461d4f446d9e9",
+        "dependencies": {
+        "@babel/code-frame": "^7.0.0",
+        "json5": "^2.1.0"
+      }
+    },
+    "breakpoint-slicer@bolt-design-system/breakpoint-slicer": {
+      "version": "2.0.0",
+      "resolved": "https://codeload.github.com/bolt-design-system/breakpoint-slicer/tar.gz/bd7dfba42a24f513c688247553f8057567b6f30c"
+    }
+  }
+}
