@@ -1,7 +1,9 @@
 # yarn-versions
 
 [![Build Status](https://travis-ci.org/christophersmith262/yarn-versions.svg?branch=master)](https://travis-ci.org/christophersmith262/yarn-versions)
-[![Coverage Status](https://coveralls.io/repos/github/christophersmith262/yarn-versions/badge.svg?branch=master)](https://coveralls.io/github/christophersmith262/yarn-versions?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/christophersmith262/yarn-versions.svg)](https://greenkeeper.io/)
+[![Coverage Status](https://coveralls.io/repos/github/christophersmith262/yarn-versions/badge.svg?branch=master)](https://coveralls.io/github/christophersmith262/yarn-versions?branch=master)
+[![npm version](https://img.shields.io/npm/v/scss-extractor.svg?style=flat)](https://www.npmjs.com/package/scss-extractor)
+[![Greenkeeper badge](https://badges.greenkeeper.io/christophersmith262/yarn-versions.svg)](https://greenkeeper.io/)
 
 Build a list of pinned dependencies from a yarn managed project.
 
