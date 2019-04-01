@@ -8,6 +8,8 @@ if (process.argv.length < 3) {
   process.exit(1)
 }
 
+let showRequested = false
+
 for (var i in process.argv) {
   if (process.argv[i] == 'help'
     || process.argv[i] == '--help'
@@ -15,9 +17,13 @@ for (var i in process.argv) {
     output.help()
     process.exit()
   }
+  else if (process.argv[i] == '-r'
+    || process.argv[i] == '--requested') {
+    showRequested = true
+  }
 }
 
-yarnVersions.get(process.argv[2]).then(async result => {
+yarnVersions.get(process.argv[2], { showRequested }).then(async result => {
   output.result(result)
 }).catch(err => {
   output.error(err)
